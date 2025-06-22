@@ -1,4 +1,4 @@
-const signalingServer = "wss://your-signaling-server.example.com"; // módosítsd
+const signalingServer = "wss://p2p-signaling-nqm8.onrender.com"; // módosítsd
 let peer = new RTCPeerConnection();
 let channel;
 let socket = new WebSocket(signalingServer);
